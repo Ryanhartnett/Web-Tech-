@@ -12,9 +12,12 @@ import recsto from './assets/recsto.jpg'
 
     <nav class="navbar">
       <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/article">Albums</router-link></li>
-        <li><router-link to="/signup">Contact</router-link></li>
+        <li><router-link to="/">Homepage</router-link></li>
+        <li><router-link to="/article">Reviews</router-link></li>
+        <li><router-link to="/signup">Sign Up</router-link></li>
+
+        <li><router-link to="/Account">Account</router-link></li>
+        <li><router-link to="/Admin">Admin</router-link></li>
       </ul>
     </nav>
   </header>
