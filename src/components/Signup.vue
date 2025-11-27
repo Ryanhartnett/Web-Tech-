@@ -144,4 +144,117 @@ button:hover {
   text-align: center;
   font-size: 1rem;
 }
+
+ .signup-page {
+   max-width: 450px;
+   margin: 3rem auto;
+   padding: 2rem;
+   background-color: white;
+   border-radius: 1rem;
+   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+   font-family: Arial, sans-serif;
+ }
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.7rem;
+  background-color: #3a3a3a;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
+
+.thank-you {
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* ───────────── Responsive styles ───────────── */
+
+/* Large screens / desktops */
+@media (min-width: 1024px) {
+  .signup-page {
+    max-width: 550px;        /* slightly wider on big screens */
+    padding: 2.5rem 3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 1023px) and (min-width: 600px) {
+  .signup-page {
+    max-width: 500px;
+    margin: 2.5rem auto;
+    padding: 2rem;
+  }
+
+  input,
+  button {
+    font-size: 1rem;
+  }
+}
+
+/* Phones */
+@media (max-width: 599px) {
+  .signup-page {
+    max-width: 100%;
+    margin: 1.5rem 1rem;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  input {
+    padding: 0.55rem;
+    font-size: 0.95rem;
+  }
+
+  button {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+}
 </style>
+
+
